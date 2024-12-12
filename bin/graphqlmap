@@ -38,6 +38,7 @@ class GraphQLmap(object):
         self.use_json = True if args_graphql.use_json else False
         self.proxy =  { 
             "http"  : args_graphql.proxy, 
+            "https"  : args_graphql.proxy, 
         }
 
         while True:
